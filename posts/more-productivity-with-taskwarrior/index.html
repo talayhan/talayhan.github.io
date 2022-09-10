@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>More Productivity With Taskwarrior - /home/talayhan</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta itemprop="name" content="More Productivity With Taskwarrior">
+<meta itemprop="description" content="Introduction to Taskwarrior"><meta itemprop="datePublished" content="2018-07-23T16:33:55+03:00" />
+<meta itemprop="dateModified" content="2018-07-23T16:33:55+03:00" />
+<meta itemprop="wordCount" content="1587">
+<meta itemprop="keywords" content="taskwarrior,productivity," /><meta property="og:title" content="More Productivity With Taskwarrior" />
+<meta property="og:description" content="Introduction to Taskwarrior" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/more-productivity-with-taskwarrior/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2018-07-23T16:33:55+03:00" />
+<meta property="article:modified_time" content="2018-07-23T16:33:55+03:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="More Productivity With Taskwarrior"/>
+<meta name="twitter:description" content="Introduction to Taskwarrior"/>
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="/css/custom.css" />
+	
+
+        <link id="dark-scheme" rel="stylesheet" type="text/css" href="/css/dark.css" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+		<script src="/js/main.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper">
+		<div class="header">
+	
+	<h1 class="site-title"><a href="/">/home/talayhan</a></h1>
+	<div class="site-description"><nav class="nav social">
+			<ul class="flat"><li><a href="https://github.com/talayhan" title="Github"><i data-feather="github"></i></a></li><li><a href="https://twitter.com/talayhans" title="Twitter"><i data-feather="twitter"></i></a></li><li><a href="https://www.linkedin.com/in/talayhan" title="Linkedin"><i data-feather="linkedin"></i></a></li><li><a href="/index.xml" title="RSS"><i data-feather="rss"></i></a></li></ul>
+		</nav><span class="scheme-toggle"><a href="#" id="scheme-toggle"></a></div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/posts">All posts</a>
+			</li>
+			
+			<li>
+				<a href="/books">Books</a>
+			</li>
+			
+			<li>
+				<a href="/bookmarks">Bookmarks</a>
+			</li>
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post">
+			<div class="post-header">
+				
+					<div class="meta">
+						<div class="date">
+							<span class="day">23</span>
+							<span class="rest">Jul 2018</span>
+						</div>
+					</div>
+				
+				<div class="matter">
+					<h1 class="title">More Productivity With Taskwarrior</h1>
+				</div>
+			</div>
+					
+			<div class="markdown">
+				<h2 id="introduction-to-taskwarrior">Introduction to Taskwarrior</h2>
+<p>I&rsquo;ve actually been trying to use taskwarrior for my primary task managemnt tool about it for months without any progress.</p>
+<p>But today is the day. I am aware of the taskwarrior power when you configure optimal way for your requirements. I don&rsquo;t explain why you have to choose taskwarrior in this post. If you are wondering how it is awesome, you can visit the official site for great explanation.</p>
+<p><strong>TLDR;</strong> I put here my mostly used taskwarrior commands and configurations.</p>
+<h3 id="how-to-install-taskwarrior">How to install taskwarrior</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">apt install task			# for debian users
+</code></pre></div><h3 id="most-simple-taskwarrior-commands">Most simple taskwarrior commands</h3>
+<p>Basic three commands; <em><em>add, list, done</em></em></p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">task add &#34;Buy a new CBR 600RR&#34;
+task list
+task &lt;ID&gt; done
+</code></pre></div><p>Add task with priority</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">task add priority:H laylaylom		# laylaylom is always HIGH priority task
+</code></pre></div><p>See the next high priority task, type <em>next</em>; by the way this command is default,
+just type <em>task</em> is enough.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">task next				# or task
+</code></pre></div><p>Permanently delete a task</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">task &lt;ID&gt; delete
+</code></pre></div><h3 id="taskrc">.taskrc</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">task show
+</code></pre></div><p>I add below settings to the end of ~/.taskrc file to see public holidays in Turkey.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">calendar.holidays=full
+color=on
+include /usr/share/task/holidays.tr-TR.rc
+</code></pre></div><h3 id="command-line-syntax">Command line syntax</h3>
+<p>This section just includes a few images to show simple usage. You can read further details about it at [2].</p>
+<p>Need to know most important thing is that the all parts to the syntax (<strong>filter</strong>, <strong>command</strong>, <strong>modifications</strong>, <strong>miscellaneous</strong>),
+each part is optional.</p>
+<p><img src="https://taskwarrior.org/docs/images/syntaxes.png" alt="syntax_example"></p>
+<p>Modification example;</p>
+<p><img src="https://taskwarrior.org/docs/images/modification.png" alt="modification_example"></p>
+<h3 id="best-practices-with-all-commands">Best practices with all commands</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">task &lt;ID&gt; modify project:&lt;project_name&gt;				# Assign a project to your tasks if possible
+task &lt;ID&gt; modify due:&lt;date&gt;					# Assign due dates where appropriate
+task &lt;ID&gt; modify priority:&lt;priority_level&gt;			# If you know the priority of a task
+task &lt;ID&gt; modify +&lt;tag&gt; +&lt;more_tag&gt;				# Add useful tags to a task
+task &lt;ID&gt; modify +next						# Add the special tag +next to a task, to boost its urgency
+task &lt;ID&gt; modify depends:&lt;OTHER_ID&gt;				# Some tasks may depend on another task
+task &lt;ID&gt; start							# When you start working on a task, mark it.
+
+task config urgency.user.tag.problem.coefficient 4.5
+task config urgency.user.project.Home.coefficient 2.9		# boost the whole project
+
+task entry.after:today-4days list				# Show tasks I added in the last 4 days.
+task entry:yesterday list					# Show tasks I added yesterday.
+task entry.after:now-1hour list					# Show tasks I added in the last hour
+task end.after:2015-05-01 and end.before:2017-05-31 completed	# Show tasks I completed between a date range.
+task end.after:today-1wk comoleted				# Show tasks I completed in the last week
+task project:This or project:That list				# Show tasks in This project or That project
+task project:This and \( priority:H or priority:M \) list	# More complex algebric filters
+task project: list						# Search for tasks with no project
+
+task rc.report.next.sort=due-,urgency- next			# Temp changing the sorting of a report.
+
+task project:OLDNAME modify project:NEWNAME			# Moving all tasks to a new project.
+task project:OLDNAME and status:pending modify project:NEWNAME	# Moving all pending tasks to a new project.
+
+task add project:Home.Kitchen Clean the floor			# Using a project hierarchy
+task add project:Home.Kitchen Replace broken light bulb
+task add project:Home.Garden Plant the bulbs
+task project:Home.Kitchen count
+task project:Home.Garden count
+task project:Home count
+
+task +home list							# List tasks that have a specific tag.
+task -home list							# List tasks that do not have a specific tag.
+task tags.any: list						# List tasks that have any tags.
+task +TAGGED list
+task tags.none: list						# List tasks that have no tags.
+task +this and +that list					# List tasks that have two specific tags.
+task +this xor +that list					# List tasks that have just one of two specific tags.
+task tags							# What tags am I currently using ?
+
+task due.after:yesterday and due.before:tomorrow list		# List tasks due today.
+task +DUE -DUETODAY list					# List tasks that are due, but not today.
+task +WEEK list							# List tasks that are due this week.
+task +OVERDUE list						# List task that are overdue.
+task &lt;ID&gt; info							# What virtual tags are present for this task ?
+
+task add &#34;Doe the thing&#34; due:2018-07-25T18:00 recur:weekly	# I want to make a task that is due at 18:00 every Wednesday, 
+								# starting this coming Wednesday.
+task add &#34;Buy a new book&#34; due:28th recur:monthly until:now+1yr	# I want a reminder to buy a new book every month, but only for a year.
+
+task config -- uda.priority.values H,M,,L			# Make priority L sort lower than no priority
+task config -- uda.priority.values OMG,DoIt,LaLa,Nope		# I need more priority values for my workflow.
+task 1 modify priority:						# How do I remove the priority from a task ?
+
+task color
+task color legend
+task rc._forcecolor:on rc.defaultwidth:120 rc.detection:off	# When task output goes to a file or pipe, all color is lost. Force it.
+
+task _get 12.description					# Get just the description for task 12.
+task _get 12.entry 12.modification				# Show the creation timestamp, and last modification date for task 12.
+task _get context.width context.height				# Get the dimensions of my terminal window.
+task add &#34;Buy a new book&#34; due:oem wait:due-4days		# Add a task, and set the wait date to 4 days before the due date.
+task add &#34;Buy a new mouse&#34; due:12.due				# Add a task, and use the same due date as task 12.
+task _get 12.due.week						# Get the week number on which task 12 due.
+task _get rc.report.next.columns				# Get the columns used in the next report.
+task show report.next.columns
+
+task diagnostics						# Show the runtime diagnostics, to see if anything is wrong.
+task &lt;ID&gt; edit							# Interactive editing with $EDITOR
+
+task annotate							# Add an annotation to a task
+task append							# Append words to a task description
+task calc							# [2.4.0] Expression calculator
+task config							# Modify configuration settings
+task context							# Manage contexts
+task count							# Count the tasks matching a filter
+task delete							# Mark a task as deleted
+task denotate							# Remove an annotation from a task
+task done							# Complete a task
+task duplicate							# Clone an existing task
+task edit							# Launch your text editor to modify a task
+task execute							# Execute an external command
+task export							# Export tasks in JSON format
+task help							# Show high-level help, a cheat-sheet
+task import							# Import tasks in JSON form
+task log							# Record an already-completed task
+task logo							# Show the Taskwarrior logo
+task modify							# Modify one or more tasks
+task prepend							# Prepend words to a task description
+task purge							# [2.6.0] Completely removes tasks, rather than change status to deleted
+task start							# Start working on a task, make active
+task stop							# Stop working on a task, no longer active
+task synchronize						# Syncs tasks with Taskserver
+task undo							# Revert last change
+
+task all							# Pending, completed and deleted tasks
+task blocked							# Tasks that are blocked by other tasks
+task blocking							# Tasks that block other tasks
+task completed							# Tasks that have been completed
+task long							# Pending tasks, long form
+task ls								# Pending tasks, short form
+task minimal							# Pending tasks, minimal form
+task newest							# Most recent pending tasks
+task next							# Most urgent tasks
+task oldest							# Oldest pending tasks
+task overdue							# Overdue tasks
+task ready							# Pending, unblocked, scheduled tasks
+task recurring							# Pending recurring tasks
+task unblocked							# Tasks that are not blocked
+task waiting							# Hidden, waiting tasks
+
+task burndown.daily						# Burndown chart, by day
+task burndown.monthly						# Burndown chart, by month
+task burndown.weekly						# Burndown chart, by week
+
+task calendar							# Calendar and holidays
+task colors							# Demonstrates all supported colors
+task columns							# List of report columns and supported formats
+task commands							# [2.5.0] List of commands, with their behaviors
+
+task ghistory.annual						# History graph, by year
+task ghistory.monthly						# History graph, by month
+task ghistory.weekly						# [2.6.0] History graph, by week
+task ghistory.daily						# [2.6.0] History graph, by day
+task history.annual						# History report, by year
+task history.monthly						# History report, by month
+task history.weekly						# [2.6.0] History report, by week
+task history.daily						# [2.6.0] History report, by day
+
+task ids							# Filtered list of task IDs
+task information						# All attributes shown
+task projects							# Filtered list of projects, with task counts
+task reports							# List of available reports
+task show							# Filtered list of configuration settings
+task stats							# Filtered statistics
+task summary							# Filtered project summary
+task tags							# Filtered list of tags
+task timesheet							# Weekly timesheet report
+task udas							# Details of all defined UDAs
+task uuids							# Filtered list of UUIDs
+
+task _aliases							# List of active aliases
+task _columns							# List of supported columns
+task _commands							# List of supported commands
+task _config							# List of confguration setting names
+task _context							# List of defined context names
+task _get							# DOM accessor
+task _ids							# Filtered list of task IDs
+task _projects							# Filtered list of project names
+task _show							# List of name=value configuration settings
+task _tags							# Filtered list of tags in use
+task _udas							# List of configured UDA names
+task _unique							# [2.5.0] List of unique values for the specified attribute
+task _urgency							# Filtered list of task urgencies
+task _uuids							# Filtered list of pending UUIDs
+task _version							# Task version (and optional git commit)
+task _zshattributes						# Zsh formatted task attribute list
+task _zshcommands						# Zsh formatted command list
+task _zshids							# Zsh formatted ID list
+task _zshuuids							# Zsh formatted UUID list
+
+curl https://gothenburgbitfactory.org/latest/task		# Get latest task version
+</code></pre></div><h3 id="todo">TODO</h3>
+<ul>
+<li>If it is possible, sync with the Google Calendar</li>
+</ul>
+<h3 id="help">Help</h3>
+<ul>
+<li>man {task, taskrc, task-color, task-sync}, task {help, diagnostics}</li>
+</ul>
+<h3 id="references">References</h3>
+<ol>
+<li><a href="https://taskwarrior.org/docs/start.html">Taskwarrior Official Documentation</a></li>
+<li><a href="https://taskwarrior.org/docs/syntax.html">Command Line Syntax</a> - you should read this awesome piece of doc.</li>
+</ol>
+
+			</div>
+
+			<div class="tags">
+				
+					
+						<ul class="flat">
+							
+							<li><a href="/tags/taskwarrior">taskwarrior</a></li>
+							
+							<li><a href="/tags/productivity">productivity</a></li>
+							
+						</ul>
+					
+				
+			</div><div id="disqus_thread"></div>
+<script type="text/javascript">
+	(function () {
+		
+		
+		if (window.location.hostname == "localhost")
+			return;
+
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		var disqus_shortname = 'talayhan-github-io';
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the </a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div>2018  © Copyright notice |  <a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-167806582-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<script>feather.replace()</script>
+</body>
+</html>

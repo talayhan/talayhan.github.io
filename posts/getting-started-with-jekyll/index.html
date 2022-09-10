@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Getting Started With Jekyll - /home/talayhan</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta itemprop="name" content="Getting Started With Jekyll">
+<meta itemprop="description" content="Jekyll 101"><meta itemprop="datePublished" content="2018-05-11T08:45:33+04:00" />
+<meta itemprop="dateModified" content="2018-05-11T08:45:33+04:00" />
+<meta itemprop="wordCount" content="271">
+<meta itemprop="keywords" content="jekyll,highlighting," /><meta property="og:title" content="Getting Started With Jekyll" />
+<meta property="og:description" content="Jekyll 101" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/getting-started-with-jekyll/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2018-05-11T08:45:33+04:00" />
+<meta property="article:modified_time" content="2018-05-11T08:45:33+04:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Getting Started With Jekyll"/>
+<meta name="twitter:description" content="Jekyll 101"/>
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="/css/custom.css" />
+	
+
+        <link id="dark-scheme" rel="stylesheet" type="text/css" href="/css/dark.css" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+		<script src="/js/main.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper">
+		<div class="header">
+	
+	<h1 class="site-title"><a href="/">/home/talayhan</a></h1>
+	<div class="site-description"><nav class="nav social">
+			<ul class="flat"><li><a href="https://github.com/talayhan" title="Github"><i data-feather="github"></i></a></li><li><a href="https://twitter.com/talayhans" title="Twitter"><i data-feather="twitter"></i></a></li><li><a href="https://www.linkedin.com/in/talayhan" title="Linkedin"><i data-feather="linkedin"></i></a></li><li><a href="/index.xml" title="RSS"><i data-feather="rss"></i></a></li></ul>
+		</nav><span class="scheme-toggle"><a href="#" id="scheme-toggle"></a></div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/posts">All posts</a>
+			</li>
+			
+			<li>
+				<a href="/books">Books</a>
+			</li>
+			
+			<li>
+				<a href="/bookmarks">Bookmarks</a>
+			</li>
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post">
+			<div class="post-header">
+				
+					<div class="meta">
+						<div class="date">
+							<span class="day">11</span>
+							<span class="rest">May 2018</span>
+						</div>
+					</div>
+				
+				<div class="matter">
+					<h1 class="title">Getting Started With Jekyll</h1>
+				</div>
+			</div>
+					
+			<div class="markdown">
+				<h1 id="quick-start-commands">Quick-Start Commands</h1>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">gem install bundler
+gem install jekyll <span style="color:#998;font-style:italic"># need to installed ruby2.3-dev package</span>
+
+<span style="color:#998;font-style:italic"># If the existing directory isn’t empty, you can pass the --force option with jekyll new . --force.</span>
+jekyll new my-awesome-site
+<span style="color:#999">cd</span> my-awesome-site
+bundle <span style="color:#999">exec</span> jekyll serve <span style="color:#998;font-style:italic"># =&gt; Now browse to http://localhost:4000</span>
+</code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#998;font-style:italic"># in project folder</span>
+bundle info &lt;gem&gt;
+bundle update &lt;gem&gt;
+bundle <span style="color:#999">exec</span> jekyll serve <span style="color:#998;font-style:italic"># browse to localhost:4000</span>
+
+<span style="color:#998;font-style:italic"># another way to system wide upgrade to latest Rubygems, run:</span>
+gem update --system
+</code></pre></div><p>Install gem dependencies in jekyll project;</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">bundler install
+</code></pre></div><h1 id="basic-usage">Basic Usage</h1>
+<h3 id="jekyll-build">Jekyll Build</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">jekyll build
+<span style="color:#998;font-style:italic"># =&gt; The current folder will be generated into ./_site</span>
+
+jekyll build --destination &lt;destination&gt;
+<span style="color:#998;font-style:italic"># =&gt; The current folder will be generated into &lt;destination&gt;</span>
+
+jekyll build --source &lt;source&gt; --destination &lt;destination&gt;
+<span style="color:#998;font-style:italic"># =&gt; The &lt;source&gt; folder will be generated into &lt;destination&gt;</span>
+
+jekyll build --watch
+<span style="color:#998;font-style:italic"># =&gt; The current folder will be generated into ./_site,</span>
+<span style="color:#998;font-style:italic">#    watched for changes, and regenerated automatically.</span>
+</code></pre></div><h3 id="jekyll-serve">Jekyll Serve</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">jekyll serve
+<span style="color:#998;font-style:italic"># =&gt; A development server will run at http://localhost:4000/</span>
+<span style="color:#998;font-style:italic"># Auto-regeneration: enabled. Use `--no-watch` to disable.</span>
+
+jekyll serve --livereload
+<span style="color:#998;font-style:italic"># LiveReload refreshes your browser after a change.</span>
+
+jekyll serve --incremental
+<span style="color:#998;font-style:italic"># Incremental will perform a partial build in order to reduce regeneration time.</span>
+
+jekyll serve --detach
+<span style="color:#998;font-style:italic"># =&gt; Same as `jekyll serve` but will detach from the current terminal.</span>
+<span style="color:#998;font-style:italic">#    If you need to kill the server, you can `kill -9 1234` where &#34;1234&#34; is the PID.</span>
+<span style="color:#998;font-style:italic">#    If you cannot find the PID, then do, `ps aux | grep jekyll` and kill the instance.</span>
+
+jekyll serve --no-watch
+<span style="color:#998;font-style:italic"># =&gt; Same as `jekyll serve` but will not watch for changes.</span>
+</code></pre></div><h3 id="references">References:</h3>
+<p><a href="https://jekyllrb.com/">Jekyll Official Site</a></p>
+
+			</div>
+
+			<div class="tags">
+				
+					
+						<ul class="flat">
+							
+							<li><a href="/tags/jekyll">jekyll</a></li>
+							
+							<li><a href="/tags/highlighting">highlighting</a></li>
+							
+						</ul>
+					
+				
+			</div><div id="disqus_thread"></div>
+<script type="text/javascript">
+	(function () {
+		
+		
+		if (window.location.hostname == "localhost")
+			return;
+
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		var disqus_shortname = 'talayhan-github-io';
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the </a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div>2018  © Copyright notice |  <a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-167806582-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<script>feather.replace()</script>
+</body>
+</html>
