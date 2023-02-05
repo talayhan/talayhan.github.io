@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux Basics on /home/talayhan</title>
+    <link>/tags/linux-basics/</link>
+    <description>Recent content in Linux Basics on /home/talayhan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright>
+    <lastBuildDate>Sat, 19 Dec 2020 21:52:12 +0300</lastBuildDate><atom:link href="/tags/linux-basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to fix Docker Permission Issue</title>
+      <link>/posts/how_to_fix_docker_got_permission_denied/</link>
+      <pubDate>Sat, 19 Dec 2020 21:52:12 +0300</pubDate>
+      
+      <guid>/posts/how_to_fix_docker_got_permission_denied/</guid>
+      <description>Got permission denied while trying to connect to the Docker daemon socket docker images Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get http://%2Fvar%2Frun%2Fdocker.sock/v1.40/images/json: dial unix /var/run/docker.sock: connect: permission denied TL;DR: Just run below commands from command prompt and skip the rest.
+sudo groupadd docker sudo usermod -aG sudo ${USER} sudo usermod -aG docker ${USER} su -s ${USER} docker run hello-world You need to do the following:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jekyll on /home/talayhan</title>
+    <link>/tags/jekyll/</link>
+    <description>Recent content in jekyll on /home/talayhan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright>
+    <lastBuildDate>Fri, 11 May 2018 08:45:33 +0400</lastBuildDate><atom:link href="/tags/jekyll/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started With Jekyll</title>
+      <link>/posts/getting-started-with-jekyll/</link>
+      <pubDate>Fri, 11 May 2018 08:45:33 +0400</pubDate>
+      
+      <guid>/posts/getting-started-with-jekyll/</guid>
+      <description>Quick-Start Commands gem install bundler gem install jekyll # need to installed ruby2.3-dev package # If the existing directory isn’t empty, you can pass the --force option with jekyll new . --force. jekyll new my-awesome-site cd my-awesome-site bundle exec jekyll serve # =&amp;gt; Now browse to http://localhost:4000 # in project folder bundle info &amp;lt;gem&amp;gt; bundle update &amp;lt;gem&amp;gt; bundle exec jekyll serve # browse to localhost:4000 # another way to system wide upgrade to latest Rubygems, run: gem update --system Install gem dependencies in jekyll project;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cpp on /home/talayhan</title>
+    <link>/tags/cpp/</link>
+    <description>Recent content in cpp on /home/talayhan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright>
+    <lastBuildDate>Mon, 17 May 2021 11:46:44 +0300</lastBuildDate><atom:link href="/tags/cpp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C&#43;&#43; - Boost Graph Library</title>
+      <link>/posts/cpp-boost-graph/</link>
+      <pubDate>Mon, 17 May 2021 11:46:44 +0300</pubDate>
+      
+      <guid>/posts/cpp-boost-graph/</guid>
+      <description>Graphs are one of the fundamental and most used data structures. It&amp;rsquo;s everywhere. However, there is no standard implementation of C++ STL. You need to implement it in your way or using 3rd party library like Boost.
+In this blog post, I use the Boost Graph library and try to show you how easy it is with example codes. I hope you&amp;rsquo;ll find it useful.
+Constructing a Graph The adjacency_list is a template class with six template parameters.</description>
+    </item>
+    
+  </channel>
+</rss>

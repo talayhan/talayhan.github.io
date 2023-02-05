@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>/home/talayhan</title>
+    <link>/</link>
+    <description>Recent content on /home/talayhan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright>
+    <lastBuildDate>Mon, 17 May 2021 11:46:44 +0300</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C&#43;&#43; - Boost Graph Library</title>
+      <link>/posts/cpp-boost-graph/</link>
+      <pubDate>Mon, 17 May 2021 11:46:44 +0300</pubDate>
+      
+      <guid>/posts/cpp-boost-graph/</guid>
+      <description>Graphs are one of the fundamental and most used data structures. It&amp;rsquo;s everywhere. However, there is no standard implementation of C++ STL. You need to implement it in your way or using 3rd party library like Boost.
+In this blog post, I use the Boost Graph library and try to show you how easy it is with example codes. I hope you&amp;rsquo;ll find it useful.
+Constructing a Graph The adjacency_list is a template class with six template parameters.</description>
+    </item>
+    
+    <item>
+      <title>How to fix Docker Permission Issue</title>
+      <link>/posts/how_to_fix_docker_got_permission_denied/</link>
+      <pubDate>Sat, 19 Dec 2020 21:52:12 +0300</pubDate>
+      
+      <guid>/posts/how_to_fix_docker_got_permission_denied/</guid>
+      <description>Got permission denied while trying to connect to the Docker daemon socket docker images Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get http://%2Fvar%2Frun%2Fdocker.sock/v1.40/images/json: dial unix /var/run/docker.sock: connect: permission denied TL;DR: Just run below commands from command prompt and skip the rest.
+sudo groupadd docker sudo usermod -aG sudo ${USER} sudo usermod -aG docker ${USER} su -s ${USER} docker run hello-world You need to do the following:</description>
+    </item>
+    
+    <item>
+      <title>LF Mentorship Session</title>
+      <link>/posts/lf-mentorship-session/</link>
+      <pubDate>Tue, 08 Dec 2020 18:43:50 +0300</pubDate>
+      
+      <guid>/posts/lf-mentorship-session/</guid>
+      <description>Notes from LF Live Mentorship Session: Best Practices to Getting Your Patches Accepted
+Important notes and links:
+Start watching mailing lists of your interest,
+ https://lore.kernel.org/lists.html  Take LFD103 which is a free LF training that offers tips on how to start contributing. Check this site to see if you can fix any bugs
+ https://syzkaller.appspot.com/upstream https://training.linuxfoundation.org/training/a-beginners-guide-to-linux-kernel-development-lfd103/ https://kernelnewbies.org/ is a good start  also check the #kernenewbies channel on OFTC</description>
+    </item>
+    
+    <item>
+      <title>Free Learning Resources</title>
+      <link>/posts/free-learning-resources/</link>
+      <pubDate>Tue, 02 Jun 2020 11:06:40 +0300</pubDate>
+      
+      <guid>/posts/free-learning-resources/</guid>
+      <description>Many publishers are temporarily providing free access to eBooks/slides/videos and other eContent during the COVID-19 crisis. I&amp;rsquo;ve arranged some of them I like. Please find below.
+ Security, Pentesing, InfoSec - Web Link Exploit Development - Web Link Total OSCP Guide - Web Link Creating a Rootkit to Learn C - Web Link The TCP/IP Guide - Web Link Advanced SQL and database books and resources - Web Link Syncfusion - software development, data visualization, and data science - Web Link Mastering Embedded Linux - Blog Series - Web Link Course materials for Modern Binary Exploitation by RPISEC - Web Link OSCP Human Guide - Web Link Learn Regex by Examples - Web Link Mastering GNU Awk - Web Link Javascript Info - Web Link Malware Analysis course at University of Cincinnati, Jan 2020-Apr 2020 - Web Link Teach Yourself Computer Science - Web Link Deep Dive Into Modern Web Development - Web Link Malware Analysis Traning - Web Link Hundreds of freely accessible courses from METU - Web Link  Computer Engineering - Web Link  C Homework Collection - Very Best - Web Link Data Structure - Very Best - Web Link     Awesome Reverse Engineering - Web Link Algorithm 101 from MIT - Web Link - Exams and Solutions C/C++ Books - Web Link  </description>
+    </item>
+    
+    <item>
+      <title>More Productivity With Taskwarrior</title>
+      <link>/posts/more-productivity-with-taskwarrior/</link>
+      <pubDate>Mon, 23 Jul 2018 16:33:55 +0300</pubDate>
+      
+      <guid>/posts/more-productivity-with-taskwarrior/</guid>
+      <description>Introduction to Taskwarrior I&amp;rsquo;ve actually been trying to use taskwarrior for my primary task managemnt tool about it for months without any progress.
+But today is the day. I am aware of the taskwarrior power when you configure optimal way for your requirements. I don&amp;rsquo;t explain why you have to choose taskwarrior in this post. If you are wondering how it is awesome, you can visit the official site for great explanation.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started With Jekyll</title>
+      <link>/posts/getting-started-with-jekyll/</link>
+      <pubDate>Fri, 11 May 2018 08:45:33 +0400</pubDate>
+      
+      <guid>/posts/getting-started-with-jekyll/</guid>
+      <description>Quick-Start Commands gem install bundler gem install jekyll # need to installed ruby2.3-dev package # If the existing directory isn’t empty, you can pass the --force option with jekyll new . --force. jekyll new my-awesome-site cd my-awesome-site bundle exec jekyll serve # =&amp;gt; Now browse to http://localhost:4000 # in project folder bundle info &amp;lt;gem&amp;gt; bundle update &amp;lt;gem&amp;gt; bundle exec jekyll serve # browse to localhost:4000 # another way to system wide upgrade to latest Rubygems, run: gem update --system Install gem dependencies in jekyll project;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Hello, I am Talayhan! I am a software engineer and currently living in Istanbul, Turkey.
+About this blog I blog about my hobby projects, books/papers I read, github repos I like, etc in English and Turkish - generally as a way to organize my ideas.
+Contact I&amp;rsquo;m on Twitter at @talayhans.
+And my email address is samet(dot)talayhan(at)gmail I love hearing from you.
+GPG Key: 0xEA38D604</description>
+    </item>
+    
+    <item>
+      <title>Bookmarks</title>
+      <link>/bookmarks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/bookmarks/</guid>
+      <description>Name Link Notes     Unix Programming every2    The UNIX Time-Sharing System PDF Electronic version recreated by Eric A. BrewerUniversity of California at Berkeley   Linux VM Notes github Archived   Data Structures and C++ CS225 Notes of data structures and C++ concepts, along with guides for the tools you&amp;rsquo;ll need in this course   Bryce Wiedenbeck - swarthmore.edu Courses Asistang Prof.</description>
+    </item>
+    
+    <item>
+      <title>Books</title>
+      <link>/books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/books/</guid>
+      <description>Currently Reading    Cover Info Notes      Otomatik Musteri Author: John Warrillow     Blink Author: Malcolm Gladwell     Hayir Diyebilme Sanati Author: Muthis Psikoloji Ornekleri cok uzun buldugum bos zamaniniz varsa ve tek alternatifiniz bu kitapsa okunabilir. Eger sonlarina dogru beni sasirtmazsa suan icin 5 uzerinden 2 veriyorum.    Modern C Author: Jens Gustedt     Want to Read    Cover Info Notes      The Art of Computer Programming - Amazon Link HPO.</description>
+    </item>
+    
+  </channel>
+</rss>

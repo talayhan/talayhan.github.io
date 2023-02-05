@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kernel on /home/talayhan</title>
+    <link>/tags/kernel/</link>
+    <description>Recent content in kernel on /home/talayhan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright>
+    <lastBuildDate>Tue, 08 Dec 2020 18:43:50 +0300</lastBuildDate><atom:link href="/tags/kernel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LF Mentorship Session</title>
+      <link>/posts/lf-mentorship-session/</link>
+      <pubDate>Tue, 08 Dec 2020 18:43:50 +0300</pubDate>
+      
+      <guid>/posts/lf-mentorship-session/</guid>
+      <description>Notes from LF Live Mentorship Session: Best Practices to Getting Your Patches Accepted
+Important notes and links:
+Start watching mailing lists of your interest,
+ https://lore.kernel.org/lists.html  Take LFD103 which is a free LF training that offers tips on how to start contributing. Check this site to see if you can fix any bugs
+ https://syzkaller.appspot.com/upstream https://training.linuxfoundation.org/training/a-beginners-guide-to-linux-kernel-development-lfd103/ https://kernelnewbies.org/ is a good start  also check the #kernenewbies channel on OFTC</description>
+    </item>
+    
+  </channel>
+</rss>
