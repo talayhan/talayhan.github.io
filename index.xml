@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>/home/talayhan</title>
+    <link>/</link>
+    <description>Recent content on /home/talayhan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Hello, I am Talayhan! I am a software engineer and currently living in Istanbul, Turkey.
+About this blog I blog about my hobby projects, books/papers I read, github repos I like, etc in English and Turkish - generally as a way to organize my ideas.
+Contact I&amp;rsquo;m on Twitter at @talayhans.
+And my email address is samet(dot)talayhan(at)gmail I love hearing from you.
+GPG Key: 0xEA38D604</description>
+    </item>
+    
+    <item>
+      <title>Bookmarks</title>
+      <link>/bookmarks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/bookmarks/</guid>
+      <description>Name Link Notes     Unix Programming every2    The UNIX Time-Sharing System PDF Electronic version recreated by Eric A. BrewerUniversity of California at Berkeley   Linux VM Notes github Archived   Data Structures and C++ CS225 Notes of data structures and C++ concepts, along with guides for the tools you&amp;rsquo;ll need in this course   Bryce Wiedenbeck - swarthmore.edu Courses Asistang Prof.</description>
+    </item>
+    
+    <item>
+      <title>Books</title>
+      <link>/books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/books/</guid>
+      <description>Currently Reading    Cover Info Notes      Otomatik Musteri Author: John Warrillow     Blink Author: Malcolm Gladwell     Hayir Diyebilme Sanati Author: Muthis Psikoloji Ornekleri cok uzun buldugum bos zamaniniz varsa ve tek alternatifiniz bu kitapsa okunabilir. Eger sonlarina dogru beni sasirtmazsa suan icin 5 uzerinden 2 veriyorum.    Modern C Author: Jens Gustedt     Want to Read    Cover Info Notes      The Art of Computer Programming - Amazon Link HPO.</description>
+    </item>
+    
+  </channel>
+</rss>
