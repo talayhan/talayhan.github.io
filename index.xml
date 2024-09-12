@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>/home/talayhan</title>
+    <link>/</link>
+    <description>Recent content on /home/talayhan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright>
+    <lastBuildDate>Tue, 08 Dec 2020 18:43:50 +0300</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LF Mentorship Session</title>
+      <link>/posts/lf-mentorship-session/</link>
+      <pubDate>Tue, 08 Dec 2020 18:43:50 +0300</pubDate>
+      
+      <guid>/posts/lf-mentorship-session/</guid>
+      <description>Notes from LF Live Mentorship Session: Best Practices for Getting Your Patches Accepted During this mentorship session, several key takeaways and resources were shared for those interested in contributing to the Linux kernel. Below are some important notes and helpful links to get started.
+Key Tips for Getting Started:   Watch Mailing Lists
+It&amp;rsquo;s crucial to start by observing mailing lists related to your areas of interest. This allows you to understand the discussions and ongoing work within the community.</description>
+    </item>
+    
+    <item>
+      <title>Free Learning Resources</title>
+      <link>/posts/free-learning-resources/</link>
+      <pubDate>Tue, 02 Jun 2020 11:06:40 +0300</pubDate>
+      
+      <guid>/posts/free-learning-resources/</guid>
+      <description>Many publishers are temporarily providing free access to eBooks/slides/videos and other eContent during the COVID-19 crisis. I&amp;rsquo;ve arranged some of them I like. Please find below.
+ Security, Pentesing, InfoSec - Web Link Exploit Development - Web Link Total OSCP Guide - Web Link Creating a Rootkit to Learn C - Web Link The TCP/IP Guide - Web Link Advanced SQL and database books and resources - Web Link Syncfusion - software development, data visualization, and data science - Web Link Mastering Embedded Linux - Blog Series - Web Link Course materials for Modern Binary Exploitation by RPISEC - Web Link OSCP Human Guide - Web Link Learn Regex by Examples - Web Link Mastering GNU Awk - Web Link Javascript Info - Web Link Malware Analysis course at University of Cincinnati, Jan 2020-Apr 2020 - Web Link Teach Yourself Computer Science - Web Link Deep Dive Into Modern Web Development - Web Link Malware Analysis Traning - Web Link Hundreds of freely accessible courses from METU - Web Link  Computer Engineering - Web Link  C Homework Collection - Very Best - Web Link Data Structure - Very Best - Web Link     Awesome Reverse Engineering - Web Link Algorithm 101 from MIT - Web Link - Exams and Solutions C/C++ Books - Web Link  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Hi, I’m Samet! I&amp;rsquo;m a Senior Software Engineer based in California, with extensive experience in wireless technology and embedded systems. Currently, I’m part of the wireless roaming team at Panasonic Avionics, where I focus on developing solutions that enhance the connectivity experience for passengers globally.
+Before joining Panasonic, I worked at DZS (formerly ASSIA Inc.) from October 2021 to February 2024. During that time, I contributed to integrating the DZS Edge Solution into embedded Linux wireless devices.</description>
+    </item>
+    
+    <item>
+      <title>Bookmarks</title>
+      <link>/bookmarks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/bookmarks/</guid>
+      <description>Name Link Notes     Unix Programming every2    The UNIX Time-Sharing System PDF Electronic version recreated by Eric A. BrewerUniversity of California at Berkeley   Linux VM Notes github Archived   Data Structures and C++ CS225 Notes of data structures and C++ concepts, along with guides for the tools you&amp;rsquo;ll need in this course   Bryce Wiedenbeck - swarthmore.edu Courses Asistang Prof.</description>
+    </item>
+    
+    <item>
+      <title>Books</title>
+      <link>/books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/books/</guid>
+      <description>Currently Reading    Cover Info Notes      Otomatik Musteri Author: John Warrillow     Blink Author: Malcolm Gladwell     Hayir Diyebilme Sanati Author: Muthis Psikoloji Ornekleri cok uzun buldugum bos zamaniniz varsa ve tek alternatifiniz bu kitapsa okunabilir. Eger sonlarina dogru beni sasirtmazsa suan icin 5 uzerinden 2 veriyorum.    Modern C Author: Jens Gustedt     Want to Read    Cover Info Notes      The Art of Computer Programming - Amazon Link HPO.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on /home/talayhan</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on /home/talayhan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright>
+    <lastBuildDate>Tue, 08 Dec 2020 18:43:50 +0300</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>kernel</title>
+      <link>/tags/kernel/</link>
+      <pubDate>Tue, 08 Dec 2020 18:43:50 +0300</pubDate>
+      
+      <guid>/tags/kernel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>/tags/linux/</link>
+      <pubDate>Tue, 08 Dec 2020 18:43:50 +0300</pubDate>
+      
+      <guid>/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>books</title>
+      <link>/tags/books/</link>
+      <pubDate>Tue, 02 Jun 2020 11:06:40 +0300</pubDate>
+      
+      <guid>/tags/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>computer science</title>
+      <link>/tags/computer-science/</link>
+      <pubDate>Tue, 02 Jun 2020 11:06:40 +0300</pubDate>
+      
+      <guid>/tags/computer-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>exams</title>
+      <link>/tags/exams/</link>
+      <pubDate>Tue, 02 Jun 2020 11:06:40 +0300</pubDate>
+      
+      <guid>/tags/exams/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mit</title>
+      <link>/tags/mit/</link>
+      <pubDate>Tue, 02 Jun 2020 11:06:40 +0300</pubDate>
+      
+      <guid>/tags/mit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programming</title>
+      <link>/tags/programming/</link>
+      <pubDate>Tue, 02 Jun 2020 11:06:40 +0300</pubDate>
+      
+      <guid>/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>resources</title>
+      <link>/tags/resources/</link>
+      <pubDate>Tue, 02 Jun 2020 11:06:40 +0300</pubDate>
+      
+      <guid>/tags/resources/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>/tags/security/</link>
+      <pubDate>Tue, 02 Jun 2020 11:06:40 +0300</pubDate>
+      
+      <guid>/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>solutions</title>
+      <link>/tags/solutions/</link>
+      <pubDate>Tue, 02 Jun 2020 11:06:40 +0300</pubDate>
+      
+      <guid>/tags/solutions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>videos</title>
+      <link>/tags/videos/</link>
+      <pubDate>Tue, 02 Jun 2020 11:06:40 +0300</pubDate>
+      
+      <guid>/tags/videos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>youtube</title>
+      <link>/tags/youtube/</link>
+      <pubDate>Tue, 02 Jun 2020 11:06:40 +0300</pubDate>
+      
+      <guid>/tags/youtube/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>courses</title>
+      <link>/tags/courses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/courses/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>go</title>
+      <link>/tags/go/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>popular</title>
+      <link>/tags/popular/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/popular/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rust</title>
+      <link>/tags/rust/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rust/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>unix</title>
+      <link>/tags/unix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/unix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wish list</title>
+      <link>/tags/wish-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/wish-list/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

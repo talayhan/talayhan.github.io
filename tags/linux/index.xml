@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on /home/talayhan</title>
+    <link>/tags/linux/</link>
+    <description>Recent content in linux on /home/talayhan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright>
+    <lastBuildDate>Tue, 08 Dec 2020 18:43:50 +0300</lastBuildDate><atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LF Mentorship Session</title>
+      <link>/posts/lf-mentorship-session/</link>
+      <pubDate>Tue, 08 Dec 2020 18:43:50 +0300</pubDate>
+      
+      <guid>/posts/lf-mentorship-session/</guid>
+      <description>Notes from LF Live Mentorship Session: Best Practices for Getting Your Patches Accepted During this mentorship session, several key takeaways and resources were shared for those interested in contributing to the Linux kernel. Below are some important notes and helpful links to get started.
+Key Tips for Getting Started:   Watch Mailing Lists
+It&amp;rsquo;s crucial to start by observing mailing lists related to your areas of interest. This allows you to understand the discussions and ongoing work within the community.</description>
+    </item>
+    
+    <item>
+      <title>Bookmarks</title>
+      <link>/bookmarks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/bookmarks/</guid>
+      <description>Name Link Notes     Unix Programming every2    The UNIX Time-Sharing System PDF Electronic version recreated by Eric A. BrewerUniversity of California at Berkeley   Linux VM Notes github Archived   Data Structures and C++ CS225 Notes of data structures and C++ concepts, along with guides for the tools you&amp;rsquo;ll need in this course   Bryce Wiedenbeck - swarthmore.edu Courses Asistang Prof.</description>
+    </item>
+    
+  </channel>
+</rss>
